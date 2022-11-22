@@ -7,11 +7,9 @@
 }
 
 .header {
-  padding: 0;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  margin-bottom: 0 0 100px;
   position: relative;
   display: flex;
   flex-direction: row;
@@ -35,7 +33,6 @@
 .header__title {
   width: 730px;
   margin: 0 0 0 64px;
-  padding: 0;
   justify-self: flex-start;
   align-self: center;
   line-height: 96px;
@@ -46,6 +43,7 @@
 }
 
 .header__subtitle {
+  margin: 0;
   position: absolute;
   width: 388px;
   bottom: 30px;
