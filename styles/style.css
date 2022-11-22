@@ -34,7 +34,8 @@
 
 .header__title {
   width: 730px;
-  margin-left: 64px;
+  margin: 0 0 0 64px;
+  padding: 0;
   justify-self: flex-start;
   align-self: center;
   line-height: 96px;
@@ -102,6 +103,8 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  margin: 0;
+  padding: 0;
 }
 
 .two-columns__main-text {
@@ -114,7 +117,8 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  margin-bottom: 30px;
+  margin: 0 0 30px;
+  padding: 0;
 }
 
 .two-columns__paragraph:nth-of-type(3n) {
@@ -137,7 +141,8 @@
 
 .section-title{
   width: 60%;
-  margin-bottom: 20px;
+  margin: 0 0 20px;
+  padding: 0;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
@@ -152,6 +157,8 @@
   font-weight: normal;
   text-align: center;
   color: #000000;
+  margin: 0;
+  padding: 0;
 }
 
 .table {
@@ -171,7 +178,8 @@
 
 .table__heading {
   width: 250px;
-  margin-bottom: 20px;
+  margin: 0;
+  padding: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
@@ -182,7 +190,8 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 0px;
 }
 
 .feynman {
@@ -295,7 +304,6 @@
   margin: 0;
   box-sizing: border-box;
   display: flex;
-  align-items: flex-end;
 }
 
 .footer__columns {
@@ -320,10 +328,7 @@
 }
 
 .footer__author {
-  margin-top: 18px;
-  margin-bottom: 18px;
-  margin-bottom: 0;
-  margin-left: 0;
+  margin: 18px 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -337,7 +342,8 @@
 }
 
 .footer__column-heading {
-  margin-bottom: 20px;
+  margin: 0 0 20px;
+  padding: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
