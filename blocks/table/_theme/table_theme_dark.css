@@ -1,5 +1,7 @@
 .table_theme_dark {
   margin: 0 auto 90px;
+  padding: 0;
   z-index: 2;
   color: white;
+  list-style-type: none;
 }
